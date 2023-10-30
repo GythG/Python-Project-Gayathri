@@ -2,7 +2,7 @@
 name = "movie-suggestions"
 version = "0.1.0"
 description = ""
-authors = ["Muthu <muthukrishnanmce@gmail.com>"]
+authors = ["GythG gythrg@amazon.com"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
