@@ -6,14 +6,16 @@ def interactive_movie_search(csv_filename):
     movies = pd.read_csv(csv_filename)
     genres = movies['Genre'].unique()
 
+    print("\n\n***********************MOVIE SUGGESTION BOT**********************************\n")
+    print("Welcome to Movie suggestions bot..!\n")
+
     while True:
-        print("***********************MOVIE SUGGESTION BOT**********************************\n")
-        print("Welcome to Movie suggestions bot..!\n")
         print("Please choose a genre from the below to get top suggestions...!\n")
         print(genres)
         genre_input = input("\nEnter a genre (or type 'bye' to exit): ")
 
         if genre_input.lower() == 'bye':
+            print("Thank you for using Movie Suggestion bot!")
             break
 
         genre_movies = movies[movies['Genre'].str.lower() == genre_input.lower()]
