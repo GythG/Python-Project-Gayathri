@@ -2,7 +2,7 @@
 
 Interactive Command Line Bot to get Movie Suggestions from IMDB database for any given Genre.
 
-## Tech Stack
+## Libraries
 
 **Data Scraping:** Selenium Webdriver
 
