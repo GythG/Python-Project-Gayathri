@@ -17,3 +17,5 @@ Selecting a Genre will bring movie list:
 
 Entering 'bye' will stop the bot:
 ![image](https://github.com/GythG/Python-Project-Gayathri/assets/146337003/c58ce776-bb96-4636-a0d8-41072ceaa035)
+
+If user entes invalud genre, it will throw an error message but stays in the run to reveive prompt from user
